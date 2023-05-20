@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/react-general-site/static/js/main.4b0d96e2.js",
+    "main.js": "/react-general-site/static/js/main.378faca4.js",
     "static/media/roboto-v27-latin-regular.woff2": "/react-general-site/static/media/roboto-v27-latin-regular.4673b4537a84c7f7a130.woff2",
     "static/media/instagram.svg": "/react-general-site/static/media/instagram.ec838e979ce548681412d54299b13b37.svg",
     "static/media/palette.svg": "/react-general-site/static/media/palette.bf21662c605fa5c676818d5eab5b7d42.svg",
@@ -17,9 +17,9 @@
     "static/media/x-lg.svg": "/react-general-site/static/media/x-lg.7960b71fbc1b80484f6380a1d2619935.svg",
     "static/media/exclamation-circle.svg": "/react-general-site/static/media/exclamation-circle.64a8c096e5d99aec96b2b306659817b8.svg",
     "static/media/chevron-right.svg": "/react-general-site/static/media/chevron-right.1392cd125db9b56c3793c9d930f16a64.svg",
-    "main.4b0d96e2.js.map": "/react-general-site/static/js/main.4b0d96e2.js.map"
+    "main.378faca4.js.map": "/react-general-site/static/js/main.378faca4.js.map"
   },
   "entrypoints": [
-    "static/js/main.4b0d96e2.js"
+    "static/js/main.378faca4.js"
   ]
 }
