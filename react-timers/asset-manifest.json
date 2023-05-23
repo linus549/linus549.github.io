@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.b0b5b33a.css",
-    "main.js": "./static/js/main.dcb95631.js",
+    "main.js": "./static/js/main.2f35f9cb.js",
     "static/media/glass-ping-Attr-Noncommercial-3-0.mp3": "./static/media/glass-ping-Attr-Noncommercial-3-0.7d7dc55011325aab3a67.mp3",
     "static/media/roboto-v27-latin-regular.woff2": "./static/media/roboto-v27-latin-regular.4673b4537a84c7f7a130.woff2",
     "index.html": "./index.html",
     "main.b0b5b33a.css.map": "./static/css/main.b0b5b33a.css.map",
-    "main.dcb95631.js.map": "./static/js/main.dcb95631.js.map"
+    "main.2f35f9cb.js.map": "./static/js/main.2f35f9cb.js.map"
   },
   "entrypoints": [
     "static/css/main.b0b5b33a.css",
-    "static/js/main.dcb95631.js"
+    "static/js/main.2f35f9cb.js"
   ]
 }
