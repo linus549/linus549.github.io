@@ -18,12 +18,11 @@ html {
   --divider-width: 1px;
   --divider-width-alt: 0.25rem;
   --border-radius: 0.25rem;
-  --background: #111;
-  --foreground: #313131;
-  --text: #f0f0f0;
-  --text-alt: #808080;
-  --primary: #bb86fc;
-  --divider: #313131;
+  --background: #171717;
+  --text: #e6e6e6;
+  --text-alt: #929292;
+  --primary: #75b6e7;
+  --divider: #404040;
 }
 
 body {
@@ -53,7 +52,6 @@ h4,
 h5,
 h6 {
   line-height: normal;
-  font-weight: normal;
   margin-bottom: 0.5rem;
 }
 
@@ -94,19 +92,7 @@ a:active {
   text-decoration: underline;
 }
 
-hr {
-  border: none;
-  border-bottom: var(--divider-width) solid var(--divider);
-}
-
-.box {
-  box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0.03);
-  border: var(--divider-width) solid var(--divider);
-  border-radius: var(--border-radius);
-}
-
 .page-title {
-  background-color: var(--foreground);
   border-bottom: var(--divider-width-alt) solid var(--primary);
   margin-bottom: var(--spacing-lg);
   padding: var(--spacing-md);
@@ -131,6 +117,11 @@ hr {
   margin-bottom: var(--spacing-md);
 }
 
+.skills {
+  border: var(--divider-width) solid var(--divider);
+  border-radius: var(--border-radius);
+}
+
 .skills__item {
   padding: var(--spacing-sm) var(--spacing-md);
 }
@@ -149,38 +140,36 @@ hr {
   gap: var(--spacing-md);
 }
 
+.card {
+  border: var(--divider-width) solid var(--divider);
+  border-radius: var(--border-radius);
+}
+
 .card__image {
   width: 100%;
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
 }
 
-.card__content {
+.card__header {
   padding: var(--spacing-md);
-}
-
-.card__description {
-  color: var(--text-alt);
   border-bottom: var(--divider-width) solid var(--divider);
-  margin-bottom: var(--spacing-sm);
-}
-
-.card__description p {
-  margin-bottom: var(--spacing-sm);
-}
-
-.card__description *:last-child {
-  margin-bottom: var(--spacing-sm);
 }
 
 .card__intro {
-  color: var(--text);
+  margin-bottom: 0;
 }
 
-.card__rule {
-  margin-bottom: var(--spacing-sm);
+.card__body {
+  color: var(--text-alt);
+  border-bottom: var(--divider-width) solid var(--divider);
+  padding: var(--spacing-md);
+}
+
+.card__body *:last-child {
+  margin-bottom: 0;
 }
 
 .card__footer {
-  display: flex;
+  padding: var(--spacing-md);
 }
