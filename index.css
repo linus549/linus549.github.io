@@ -166,7 +166,7 @@ a:active {
   padding: var(--spacing-md);
 }
 
-.card__body *:last-child {
+.card__body > *:last-child {
   margin-bottom: 0;
 }
 
