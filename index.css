@@ -156,7 +156,7 @@ a:active {
   border-bottom: var(--divider-width) solid var(--divider);
 }
 
-.card__intro {
+.card__header > *:last-child {
   margin-bottom: 0;
 }
 
@@ -172,4 +172,8 @@ a:active {
 
 .card__footer {
   padding: var(--spacing-md);
+}
+
+.card__footer > *:last-child {
+  margin-bottom: 0;
 }
