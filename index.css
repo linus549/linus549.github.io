@@ -95,7 +95,7 @@ a:active {
 .page-title {
   border-bottom: var(--divider-width-alt) solid var(--primary);
   margin-bottom: var(--spacing-lg);
-  padding: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-sm);
 }
 
 .page-title__heading {
@@ -104,9 +104,12 @@ a:active {
 }
 
 .section-container {
+  padding: 0 var(--spacing-sm);
+}
+
+.section-container__inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 var(--spacing-sm);
 }
 
 .section {
@@ -176,4 +179,14 @@ a:active {
 
 .card__footer > *:last-child {
   margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .page-title {
+    padding: var(--spacing-md);
+  }
+
+  .section-container {
+    padding: 0 var(--spacing-md);
+  }
 }
