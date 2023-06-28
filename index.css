@@ -110,6 +110,19 @@ a:active {
   margin: 0 auto;
 }
 
+.page-footer {
+  padding: var(--spacing-md) var(--spacing-sm);
+}
+
+.page-footer__link {
+  color: var(--text-alt);
+}
+
+.page-footer__link:hover,
+.page-footer__link:active {
+  color: var(--primary);
+}
+
 .section-container {
   padding: 0 var(--spacing-sm);
 }
@@ -190,6 +203,10 @@ a:active {
 
 @media (min-width: 768px) {
   .page-title {
+    padding: var(--spacing-md);
+  }
+
+  .page-footer {
     padding: var(--spacing-md);
   }
 
